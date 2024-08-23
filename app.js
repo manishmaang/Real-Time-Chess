@@ -36,9 +36,9 @@ io.on("connection",function(uniqueSocket){
      // jo banda connect hua hai sirf usi bande ko wps info bej rhe hai ki vo white hai
      uniqueSocket.emit("playerRole","w")
     }
-    else if(!players.black){
+    else if(!players.black)
+    {
         players.black = uniqueSocket.id;
-    // jo banda baad me connect hua hai sirf usi ko info bej rhe hai ki vo blach hai
         uniqueSocket.emit("playerRole","b");
     }
     else{

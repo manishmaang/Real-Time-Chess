@@ -1,8 +1,6 @@
-Step : 1 => jo jo cheeze chahiye vo sb setup krna padega like packages intial code-snippet of backend etc
+Step : 1 => Board rendering ek ko white peices dikhe or dusre ko black peices dikhe
 
-Step : 2 => Board rendering ek ko white peices dikhe or dusre ko black peices dikhe
+Step : 2 => Chess peices ke functionality like drag-drop functionality, koi peice kitna chl skta hai etc.
 
-Step : 3 => Chess peices ke functionality like drag-drop functionality, koi peice kitna chl skta hai etc.
-
-Step : 4 => Socket functionality real time pr peice update dono players ke liye
+Step : 3 => Socket functionality real time pr peice update dono players ke liye
 (Socket event handling for client and server)
