@@ -55,6 +55,9 @@ io.on("connection",function(uniqueSocket){
        } 
     })
 
+    uniqueSocket.on('signal',function(data){
+        uniqueSocket.broadcast.emit(data);
+    })
     uniqueSocket.on("move",function(move){
         try{
 //agr white ki turn hai or black move kr rha hai to hum whi se return ho jayenge kyuki vo peices idhr udhr
